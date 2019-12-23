@@ -1,21 +1,24 @@
+Pod::Spec.new do |spec|
 
-Pod::Spec.new do |s|
+    spec.name        = "HaveIBeenPwned"
+    spec.version     = "2.0.0"
+    spec.summary     = "Swift library for haveibeenpwned.com (v3)"
+    spec.homepage    = "https://github.com/vhosune/HaveIBeenPwned"
+    spec.license     = { :type => "MIT", :file => "LICENSE" }
+    spec.author      = { "Vincent HO-SUNE" => "vhosune@gmail.com" }
 
-  s.name         = "HaveIBeenPwned"
-  s.version      = "1.0.1"
-  s.summary      = "Swift library for haveibeenpwned.com"
-  s.description  = <<-DESC
-Swift Library to haveibeenpwned.com API based on API v2.
-- You can check if a password has already been pwned in a breach.
-- You can query for known breaches
-DESC
+    spec.swift_version = '5.1'
 
-  s.homepage     = "https://github.com/vhosune/HaveIBeenPwned"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author       = { "Vincent HO-SUNE" => "vhosune@gmail.com" }
-  s.source       = { :git => "https://github.com/vhosune/HaveIBeenPwned.git", :tag => s.version.to_s }
-  s.ios.source_files  = "HaveIBeenPwned/**/*.{h,swift}"
-  s.ios.deployment_target = '8.0'
-  s.swift_version = '4.2'
+    spec.ios.deployment_target     = "8.0"
+    spec.osx.deployment_target     = "10.10"
+    spec.watchos.deployment_target = "2.0"
+    spec.tvos.deployment_target    = "9.0"
+
+    spec.source = {
+        :git => "https://github.com/vhosune/HaveIBeenPwned.git",
+        :tag => "#{spec.version}"
+    }
+
+    spec.source_files  = "HaveIBeenPwned/**/*.{swift}"
 
 end

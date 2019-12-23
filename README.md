@@ -1,73 +1,22 @@
 # HaveIBeenPwned
 
-[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/vhosune/HaveIBeenPwned/blob/master/LICENSE)
-[![Cocoapods Compatible](https://img.shields.io/badge/pods-1.0.1-blue.svg)](https://cocoapods.org/pods/HaveIBeenPwned)
+[![Language](https://img.shields.io/badge/language-swift-orange)](https://github.com/vhosune/HaveIBeenPwned)
+[![Platform](https://img.shields.io/cocoapods/p/HaveIBeenPwned)](https://github.com/vhosune/HaveIBeenPwned)
+[![HaveIBeenPwned](https://img.shields.io/badge/api-v3-blue)](https://haveibeenpwned.com/API/v3)
+[![GitHub license](https://img.shields.io/github/license/vhosune/HaveIBeenPwned)](https://raw.githubusercontent.com/vhosune/HaveIBeenPwned/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/vhosune/HaveIBeenPwned?sort=semver)](https://github.com/vhosune/HaveIBeenPwned/releases)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/HaveIBeenPwned)](https://cocoapods.org/pods/HaveIBeenPwned)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
-Swift library for [haveibeenpwned.com](https://haveibeenpwned.com)
+Swift library for [haveibeenpwned.com](https://haveibeenpwned.com) using APIv3
 
-## Quick hands on
-
-- Check if a password has already been pwned in a breach
-
-```swift
-import HaveIBeenPwned
-
-let session = HaveIBeenPwned()
-
-try? session.search(password: "password") { result in
-    if let pwned = try? result() {
-        print("password pwned \(pwned) times.")
-    }
-}
-
-```
-
-- Check if a site has been breached
-
-```swift
-let session = HaveIBeenPwned()
-
-_ = try? session.breach(name: "yahoo", completion: { result in
-    do {
-        let pwned = try result()
-        print("breach \(pwned)")
-    }
-    catch HaveIBeenPwned.ErrorCode.notFound {
-        print("not breached")
-    }
-    catch {
-    }
-    
-})
-```
-
-- Check if a user account appears in a breach
-
-```swift
-let session = HaveIBeenPwned()
-
-_ = try? session.breached(account: "user@example.com", completion: { result in
-    do {
-        let pwned = try result()
-        print("breached \(pwned)")
-    }
-    catch HaveIBeenPwned.ErrorCode.notFound {
-        print("not breached")
-    }
-    catch {
-    }
-    
-})
-
-```
+**Notes:** Some API request needs a [paid API key](https://haveibeenpwned.com/API/Key)
 
 ## Requirements
 
-- iOS 8.0+
-- Xcode 10.0+
-- Swift 4.2+
+- iOS 8.0+ / macOS 10.10+
+- Swift 5+
 
 ## Installation
 
@@ -78,7 +27,7 @@ _ = try? session.breached(account: "user@example.com", completion: { result in
 `Podfile`:
 
 ```ruby
-    pod 'HaveIBeenPwned'
+pod 'HaveIBeenPwned'
 ```
 
 ### Carthage
@@ -90,4 +39,52 @@ _ = try? session.breached(account: "user@example.com", completion: { result in
 ```ogdl
 github "vhosune/HaveIBeenPwned"
 ```
+
+## Quick hands on
+
+- Check if a password has already been pwned in a breach
+
+```swift
+    import HaveIBeenPwned
+
+    // init HaveIBeenPwned with its Settings
+    let pwned = HaveIBeenPwned(with: HaveIBeenPwned.Settings())
+
+    // create a request
+    if let request = pwned.requestSearch(password: "password") {
+
+        // fetch the request
+        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+                
+            // parse the result
+            let result = pwned.parseResponse(data, response, error)
+                
+            // handle the parsed result
+            if case .passwords(let ranges) = try? result.get() {
+                let count = HaveIBeenPwned.search(for: "password", in: ranges)
+                print("has been pwned \(count) times")
+            }
+        }
+            
+        task.resume()
+    }
+```
+
+- Check if a site has been breached
+
+```swift
+    let request = pwned.requestBreach(name: "yahoo")
+```
+
+- Check if a user account appears in a breach
+
+```swift
+
+    // init HaveIBeenPwned with its Settings and the Api key
+    let pwned = HaveIBeenPwned(with: HaveIBeenPwned.Settings(apiKey: "YOUR_API_KEY"))
+    let request = pwned.requestBreached(account: "user@example.com")
+
+```
+
+
 

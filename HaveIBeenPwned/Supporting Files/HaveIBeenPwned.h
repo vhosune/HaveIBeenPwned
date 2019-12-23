@@ -1,8 +1,8 @@
 //
-//  Copyright © 2018 Vincent HO-SUNE. All rights reserved.
+//  Copyright © Vincent HO-SUNE. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
 //! Project version number for HaveIBeenPwned.
 FOUNDATION_EXPORT double HaveIBeenPwnedVersionNumber;

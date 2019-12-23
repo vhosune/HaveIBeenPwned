@@ -7,26 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250F769123B3E90300638757 /* HaveIBeenPwned+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769023B3E90300638757 /* HaveIBeenPwned+Settings.swift */; };
+		250F769323B3E9D100638757 /* HaveIBeenPwned+Breaches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769223B3E9D100638757 /* HaveIBeenPwned+Breaches.swift */; };
+		250F769523B3E9E600638757 /* HaveIBeenPwned+PasteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769423B3E9E600638757 /* HaveIBeenPwned+PasteSource.swift */; };
+		250F769723B3E9FE00638757 /* HaveIBeenPwned+Passwords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769623B3E9FE00638757 /* HaveIBeenPwned+Passwords.swift */; };
+		250F769923B3EA1600638757 /* HaveIBeenPwned+Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769823B3EA1600638757 /* HaveIBeenPwned+Other.swift */; };
+		250F769A23B3EA2800638757 /* HaveIBeenPwned+Breaches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769223B3E9D100638757 /* HaveIBeenPwned+Breaches.swift */; };
+		250F769B23B3EA2800638757 /* HaveIBeenPwned+PasteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769423B3E9E600638757 /* HaveIBeenPwned+PasteSource.swift */; };
+		250F769C23B3EA2800638757 /* HaveIBeenPwned+Passwords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769623B3E9FE00638757 /* HaveIBeenPwned+Passwords.swift */; };
+		250F769D23B3EA2800638757 /* HaveIBeenPwned+Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769823B3EA1600638757 /* HaveIBeenPwned+Other.swift */; };
+		250F769E23B3EA2D00638757 /* HaveIBeenPwned+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F769023B3E90300638757 /* HaveIBeenPwned+Settings.swift */; };
+		250F76A223B3EB3D00638757 /* HaveIBeenPwned+ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F76A123B3EB3D00638757 /* HaveIBeenPwned+ErrorCode.swift */; };
+		250F76B423B514BD00638757 /* HaveIBeenPwned+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F76B323B514BD00638757 /* HaveIBeenPwned+Parsing.swift */; };
+		250F76B523B514BD00638757 /* HaveIBeenPwned+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F76B323B514BD00638757 /* HaveIBeenPwned+Parsing.swift */; };
+		250F76B623B54F5D00638757 /* HaveIBeenPwned+ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F76A123B3EB3D00638757 /* HaveIBeenPwned+ErrorCode.swift */; };
+		255488CE23B11C9A008BC496 /* HaveIBeenPwned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6018219DF701008F63C1 /* HaveIBeenPwned.swift */; };
+		255488CF23B11CA3008BC496 /* HaveIBeenPwned+SupportTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6019219DF701008F63C1 /* HaveIBeenPwned+SupportTools.swift */; };
+		255488D023B11CA4008BC496 /* HaveIBeenPwned+Breach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6016219DF701008F63C1 /* HaveIBeenPwned+Breach.swift */; };
+		255488D123B11CA4008BC496 /* HaveIBeenPwned+Paste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6017219DF701008F63C1 /* HaveIBeenPwned+Paste.swift */; };
+		255488D223B11CA4008BC496 /* HaveIBeenPwned+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D601A219DF701008F63C1 /* HaveIBeenPwned+Range.swift */; };
+		255488D423B12CB9008BC496 /* HaveIBeenPwned.h in Headers */ = {isa = PBXBuildFile; fileRef = 257D600E219DF631008F63C1 /* HaveIBeenPwned.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		257D6010219DF631008F63C1 /* HaveIBeenPwned.h in Headers */ = {isa = PBXBuildFile; fileRef = 257D600E219DF631008F63C1 /* HaveIBeenPwned.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		257D601B219DF701008F63C1 /* BreachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6016219DF701008F63C1 /* BreachModel.swift */; };
-		257D601C219DF701008F63C1 /* PasteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6017219DF701008F63C1 /* PasteModel.swift */; };
+		257D601B219DF701008F63C1 /* HaveIBeenPwned+Breach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6016219DF701008F63C1 /* HaveIBeenPwned+Breach.swift */; };
+		257D601C219DF701008F63C1 /* HaveIBeenPwned+Paste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6017219DF701008F63C1 /* HaveIBeenPwned+Paste.swift */; };
 		257D601D219DF701008F63C1 /* HaveIBeenPwned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6018219DF701008F63C1 /* HaveIBeenPwned.swift */; };
-		257D601E219DF701008F63C1 /* SupportTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6019219DF701008F63C1 /* SupportTools.swift */; };
-		257D601F219DF701008F63C1 /* RangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D601A219DF701008F63C1 /* RangeModel.swift */; };
+		257D601E219DF701008F63C1 /* HaveIBeenPwned+SupportTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D6019219DF701008F63C1 /* HaveIBeenPwned+SupportTools.swift */; };
+		257D601F219DF701008F63C1 /* HaveIBeenPwned+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257D601A219DF701008F63C1 /* HaveIBeenPwned+Range.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250F769023B3E90300638757 /* HaveIBeenPwned+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+Settings.swift"; sourceTree = "<group>"; };
+		250F769223B3E9D100638757 /* HaveIBeenPwned+Breaches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+Breaches.swift"; sourceTree = "<group>"; };
+		250F769423B3E9E600638757 /* HaveIBeenPwned+PasteSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+PasteSource.swift"; sourceTree = "<group>"; };
+		250F769623B3E9FE00638757 /* HaveIBeenPwned+Passwords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+Passwords.swift"; sourceTree = "<group>"; };
+		250F769823B3EA1600638757 /* HaveIBeenPwned+Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+Other.swift"; sourceTree = "<group>"; };
+		250F76A123B3EB3D00638757 /* HaveIBeenPwned+ErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+ErrorCode.swift"; sourceTree = "<group>"; };
+		250F76AA23B42BFB00638757 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		250F76AB23B42C0C00638757 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		250F76B323B514BD00638757 /* HaveIBeenPwned+Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+Parsing.swift"; sourceTree = "<group>"; };
+		255488C623B11AB2008BC496 /* HaveIBeenPwned.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaveIBeenPwned.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		257D600B219DF631008F63C1 /* HaveIBeenPwned.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaveIBeenPwned.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		257D600E219DF631008F63C1 /* HaveIBeenPwned.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaveIBeenPwned.h; sourceTree = "<group>"; };
 		257D600F219DF631008F63C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		257D6016219DF701008F63C1 /* BreachModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreachModel.swift; sourceTree = "<group>"; };
-		257D6017219DF701008F63C1 /* PasteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteModel.swift; sourceTree = "<group>"; };
+		257D6016219DF701008F63C1 /* HaveIBeenPwned+Breach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+Breach.swift"; sourceTree = "<group>"; };
+		257D6017219DF701008F63C1 /* HaveIBeenPwned+Paste.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+Paste.swift"; sourceTree = "<group>"; };
 		257D6018219DF701008F63C1 /* HaveIBeenPwned.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaveIBeenPwned.swift; sourceTree = "<group>"; };
-		257D6019219DF701008F63C1 /* SupportTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportTools.swift; sourceTree = "<group>"; };
-		257D601A219DF701008F63C1 /* RangeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeModel.swift; sourceTree = "<group>"; };
+		257D6019219DF701008F63C1 /* HaveIBeenPwned+SupportTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+SupportTools.swift"; sourceTree = "<group>"; };
+		257D601A219DF701008F63C1 /* HaveIBeenPwned+Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HaveIBeenPwned+Range.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		255488C323B11AB2008BC496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		257D6008219DF631008F63C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,11 +74,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250F76AE23B4394800638757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		257D6001219DF631008F63C1 = {
 			isa = PBXGroup;
 			children = (
+				250F76AA23B42BFB00638757 /* LICENSE */,
+				250F76AB23B42C0C00638757 /* README.md */,
 				257D600D219DF631008F63C1 /* HaveIBeenPwned */,
 				257D600C219DF631008F63C1 /* Products */,
+				250F76AE23B4394800638757 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				257D600B219DF631008F63C1 /* HaveIBeenPwned.framework */,
+				255488C623B11AB2008BC496 /* HaveIBeenPwned.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,21 +105,28 @@
 			isa = PBXGroup;
 			children = (
 				257D6022219DFCDA008F63C1 /* Common */,
-				257D6020219DF71F008F63C1 /* Models */,
+				257D6020219DF71F008F63C1 /* ResponseObjects */,
 				257D6018219DF701008F63C1 /* HaveIBeenPwned.swift */,
+				250F76B323B514BD00638757 /* HaveIBeenPwned+Parsing.swift */,
+				250F769023B3E90300638757 /* HaveIBeenPwned+Settings.swift */,
+				250F76A123B3EB3D00638757 /* HaveIBeenPwned+ErrorCode.swift */,
+				250F769223B3E9D100638757 /* HaveIBeenPwned+Breaches.swift */,
+				250F769423B3E9E600638757 /* HaveIBeenPwned+PasteSource.swift */,
+				250F769623B3E9FE00638757 /* HaveIBeenPwned+Passwords.swift */,
+				250F769823B3EA1600638757 /* HaveIBeenPwned+Other.swift */,
 				257D6021219DFCB7008F63C1 /* Supporting Files */,
 			);
 			path = HaveIBeenPwned;
 			sourceTree = "<group>";
 		};
-		257D6020219DF71F008F63C1 /* Models */ = {
+		257D6020219DF71F008F63C1 /* ResponseObjects */ = {
 			isa = PBXGroup;
 			children = (
-				257D6016219DF701008F63C1 /* BreachModel.swift */,
-				257D6017219DF701008F63C1 /* PasteModel.swift */,
-				257D601A219DF701008F63C1 /* RangeModel.swift */,
+				257D6016219DF701008F63C1 /* HaveIBeenPwned+Breach.swift */,
+				257D6017219DF701008F63C1 /* HaveIBeenPwned+Paste.swift */,
+				257D601A219DF701008F63C1 /* HaveIBeenPwned+Range.swift */,
 			);
-			path = Models;
+			path = ResponseObjects;
 			sourceTree = "<group>";
 		};
 		257D6021219DFCB7008F63C1 /* Supporting Files */ = {
@@ -86,7 +141,7 @@
 		257D6022219DFCDA008F63C1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				257D6019219DF701008F63C1 /* SupportTools.swift */,
+				257D6019219DF701008F63C1 /* HaveIBeenPwned+SupportTools.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -94,6 +149,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		255488C123B11AB2008BC496 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255488D423B12CB9008BC496 /* HaveIBeenPwned.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		257D6006219DF631008F63C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,9 +168,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		257D600A219DF631008F63C1 /* HaveIBeenPwned */ = {
+		255488C523B11AB2008BC496 /* HaveIBeenPwned_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 257D6013219DF631008F63C1 /* Build configuration list for PBXNativeTarget "HaveIBeenPwned" */;
+			buildConfigurationList = 255488CB23B11AB2008BC496 /* Build configuration list for PBXNativeTarget "HaveIBeenPwned_macOS" */;
+			buildPhases = (
+				255488C123B11AB2008BC496 /* Headers */,
+				255488C223B11AB2008BC496 /* Sources */,
+				255488C323B11AB2008BC496 /* Frameworks */,
+				255488C423B11AB2008BC496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaveIBeenPwned_macOS;
+			productName = HaveIBeenPwned_macOS;
+			productReference = 255488C623B11AB2008BC496 /* HaveIBeenPwned.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		257D600A219DF631008F63C1 /* HaveIBeenPwned_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257D6013219DF631008F63C1 /* Build configuration list for PBXNativeTarget "HaveIBeenPwned_iOS" */;
 			buildPhases = (
 				257D6006219DF631008F63C1 /* Headers */,
 				257D6007219DF631008F63C1 /* Sources */,
@@ -118,7 +199,7 @@
 			);
 			dependencies = (
 			);
-			name = HaveIBeenPwned;
+			name = HaveIBeenPwned_iOS;
 			productName = HaveIBeenPwned;
 			productReference = 257D600B219DF631008F63C1 /* HaveIBeenPwned.framework */;
 			productType = "com.apple.product-type.framework";
@@ -132,9 +213,12 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Vincent HO-SUNE";
 				TargetAttributes = {
+					255488C523B11AB2008BC496 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					257D600A219DF631008F63C1 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -144,18 +228,27 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 257D6001219DF631008F63C1;
 			productRefGroup = 257D600C219DF631008F63C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				257D600A219DF631008F63C1 /* HaveIBeenPwned */,
+				257D600A219DF631008F63C1 /* HaveIBeenPwned_iOS */,
+				255488C523B11AB2008BC496 /* HaveIBeenPwned_macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		255488C423B11AB2008BC496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		257D6009219DF631008F63C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,25 +259,99 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		255488C223B11AB2008BC496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255488D223B11CA4008BC496 /* HaveIBeenPwned+Range.swift in Sources */,
+				255488CE23B11C9A008BC496 /* HaveIBeenPwned.swift in Sources */,
+				250F76B623B54F5D00638757 /* HaveIBeenPwned+ErrorCode.swift in Sources */,
+				255488D123B11CA4008BC496 /* HaveIBeenPwned+Paste.swift in Sources */,
+				250F769A23B3EA2800638757 /* HaveIBeenPwned+Breaches.swift in Sources */,
+				255488D023B11CA4008BC496 /* HaveIBeenPwned+Breach.swift in Sources */,
+				250F769E23B3EA2D00638757 /* HaveIBeenPwned+Settings.swift in Sources */,
+				255488CF23B11CA3008BC496 /* HaveIBeenPwned+SupportTools.swift in Sources */,
+				250F769D23B3EA2800638757 /* HaveIBeenPwned+Other.swift in Sources */,
+				250F769B23B3EA2800638757 /* HaveIBeenPwned+PasteSource.swift in Sources */,
+				250F76B523B514BD00638757 /* HaveIBeenPwned+Parsing.swift in Sources */,
+				250F769C23B3EA2800638757 /* HaveIBeenPwned+Passwords.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		257D6007219DF631008F63C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257D601F219DF701008F63C1 /* RangeModel.swift in Sources */,
-				257D601E219DF701008F63C1 /* SupportTools.swift in Sources */,
-				257D601B219DF701008F63C1 /* BreachModel.swift in Sources */,
+				257D601F219DF701008F63C1 /* HaveIBeenPwned+Range.swift in Sources */,
+				250F76B423B514BD00638757 /* HaveIBeenPwned+Parsing.swift in Sources */,
+				257D601E219DF701008F63C1 /* HaveIBeenPwned+SupportTools.swift in Sources */,
+				250F769523B3E9E600638757 /* HaveIBeenPwned+PasteSource.swift in Sources */,
+				250F769723B3E9FE00638757 /* HaveIBeenPwned+Passwords.swift in Sources */,
+				257D601B219DF701008F63C1 /* HaveIBeenPwned+Breach.swift in Sources */,
+				250F769323B3E9D100638757 /* HaveIBeenPwned+Breaches.swift in Sources */,
 				257D601D219DF701008F63C1 /* HaveIBeenPwned.swift in Sources */,
-				257D601C219DF701008F63C1 /* PasteModel.swift in Sources */,
+				250F769123B3E90300638757 /* HaveIBeenPwned+Settings.swift in Sources */,
+				250F769923B3EA1600638757 /* HaveIBeenPwned+Other.swift in Sources */,
+				257D601C219DF701008F63C1 /* HaveIBeenPwned+Paste.swift in Sources */,
+				250F76A223B3EB3D00638757 /* HaveIBeenPwned+ErrorCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		255488CC23B11AB2008BC496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "HaveIBeenPwned/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vhosune.macos.framework.HaveIBeenPwned;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		255488CD23B11AB2008BC496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "HaveIBeenPwned/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vhosune.macos.framework.HaveIBeenPwned;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		257D6011219DF631008F63C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -213,7 +380,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -234,13 +401,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = HaveIBeenPwned;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -250,6 +420,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -278,7 +450,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -293,12 +465,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = HaveIBeenPwned;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -308,9 +483,8 @@
 		257D6014219DF631008F63C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -318,17 +492,15 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "HaveIBeenPwned/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vhosune.ios.framework.HaveIBeenPwned;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -336,9 +508,8 @@
 		257D6015219DF631008F63C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -346,16 +517,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "HaveIBeenPwned/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vhosune.ios.framework.HaveIBeenPwned;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -363,6 +532,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		255488CB23B11AB2008BC496 /* Build configuration list for PBXNativeTarget "HaveIBeenPwned_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255488CC23B11AB2008BC496 /* Debug */,
+				255488CD23B11AB2008BC496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		257D6005219DF631008F63C1 /* Build configuration list for PBXProject "HaveIBeenPwned" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -372,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		257D6013219DF631008F63C1 /* Build configuration list for PBXNativeTarget "HaveIBeenPwned" */ = {
+		257D6013219DF631008F63C1 /* Build configuration list for PBXNativeTarget "HaveIBeenPwned_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				257D6014219DF631008F63C1 /* Debug */,
